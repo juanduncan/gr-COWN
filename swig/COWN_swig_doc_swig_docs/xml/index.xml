@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="classgr_1_1COWN_1_1tag__generator" kind="class"><name>gr::COWN::tag_generator</name>
+    <member refid="classgr_1_1COWN_1_1tag__generator_1a069e25521abe363e02f21529075787ba" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1COWN_1_1tag__generator_1a3591ac91da093638c40d465b9fe8eddf" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1COWN" kind="namespace"><name>gr::COWN</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1aa9c4153d87e79b6d387e3953341f2b3e" kind="define"><name>COWN_API</name></member>
+  </compound>
+  <compound refid="tag__generator_8h" kind="file"><name>tag_generator.h</name>
+  </compound>
+  <compound refid="dir_71e976a3faa97e5c8e4dc37841a82788" kind="dir"><name>/home/juan/cognitive/gr-COWN/include/COWN</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/juan/cognitive/gr-COWN/include</name>
+  </compound>
+</doxygenindex>
