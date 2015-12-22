@@ -7320,39 +7320,6 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_tag_generator_sptr_pc_throughput_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  boost::shared_ptr< gr::COWN::tag_generator > *arg1 = (boost::shared_ptr< gr::COWN::tag_generator > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  float result;
-  
-  if(!PyArg_UnpackTuple(args,(char *)"tag_generator_sptr_pc_throughput_avg",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__COWN__tag_generator_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "tag_generator_sptr_pc_throughput_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::COWN::tag_generator > *""'"); 
-  }
-  arg1 = reinterpret_cast< boost::shared_ptr< gr::COWN::tag_generator > * >(argp1);
-  {
-    try {
-      result = (float)(*arg1)->pc_throughput_avg();
-    }
-    catch(std::exception &e) {
-      SWIG_exception(SWIG_RuntimeError, e.what());
-    }
-    catch(...) {
-      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
-    }
-    
-  }
-  resultobj = SWIG_From_float(static_cast< float >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
 SWIGINTERN PyObject *_wrap_tag_generator_sptr_set_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   boost::shared_ptr< gr::COWN::tag_generator > *arg1 = (boost::shared_ptr< gr::COWN::tag_generator > *) 0 ;
@@ -10432,39 +10399,6 @@ SWIGINTERN PyObject *_wrap_test_sptr_pc_work_time_total(PyObject *SWIGUNUSEDPARM
   {
     try {
       result = (float)(*arg1)->pc_work_time_total();
-    }
-    catch(std::exception &e) {
-      SWIG_exception(SWIG_RuntimeError, e.what());
-    }
-    catch(...) {
-      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
-    }
-    
-  }
-  resultobj = SWIG_From_float(static_cast< float >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_test_sptr_pc_throughput_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  boost::shared_ptr< gr::COWN::test > *arg1 = (boost::shared_ptr< gr::COWN::test > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  float result;
-  
-  if(!PyArg_UnpackTuple(args,(char *)"test_sptr_pc_throughput_avg",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__COWN__test_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "test_sptr_pc_throughput_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::COWN::test > *""'"); 
-  }
-  arg1 = reinterpret_cast< boost::shared_ptr< gr::COWN::test > * >(argp1);
-  {
-    try {
-      result = (float)(*arg1)->pc_throughput_avg();
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -13576,39 +13510,6 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_syncher_sptr_pc_throughput_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  boost::shared_ptr< gr::COWN::syncher > *arg1 = (boost::shared_ptr< gr::COWN::syncher > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  float result;
-  
-  if(!PyArg_UnpackTuple(args,(char *)"syncher_sptr_pc_throughput_avg",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__COWN__syncher_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "syncher_sptr_pc_throughput_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::COWN::syncher > *""'"); 
-  }
-  arg1 = reinterpret_cast< boost::shared_ptr< gr::COWN::syncher > * >(argp1);
-  {
-    try {
-      result = (float)(*arg1)->pc_throughput_avg();
-    }
-    catch(std::exception &e) {
-      SWIG_exception(SWIG_RuntimeError, e.what());
-    }
-    catch(...) {
-      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
-    }
-    
-  }
-  resultobj = SWIG_From_float(static_cast< float >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
 SWIGINTERN PyObject *_wrap_syncher_sptr_set_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   boost::shared_ptr< gr::COWN::syncher > *arg1 = (boost::shared_ptr< gr::COWN::syncher > *) 0 ;
@@ -16688,39 +16589,6 @@ SWIGINTERN PyObject *_wrap_syncher2_sptr_pc_work_time_total(PyObject *SWIGUNUSED
   {
     try {
       result = (float)(*arg1)->pc_work_time_total();
-    }
-    catch(std::exception &e) {
-      SWIG_exception(SWIG_RuntimeError, e.what());
-    }
-    catch(...) {
-      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
-    }
-    
-  }
-  resultobj = SWIG_From_float(static_cast< float >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_syncher2_sptr_pc_throughput_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  boost::shared_ptr< gr::COWN::syncher2 > *arg1 = (boost::shared_ptr< gr::COWN::syncher2 > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  float result;
-  
-  if(!PyArg_UnpackTuple(args,(char *)"syncher2_sptr_pc_throughput_avg",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__COWN__syncher2_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "syncher2_sptr_pc_throughput_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::COWN::syncher2 > *""'"); 
-  }
-  arg1 = reinterpret_cast< boost::shared_ptr< gr::COWN::syncher2 > * >(argp1);
-  {
-    try {
-      result = (float)(*arg1)->pc_throughput_avg();
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -19832,39 +19700,6 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_resta_sptr_pc_throughput_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  boost::shared_ptr< gr::COWN::resta > *arg1 = (boost::shared_ptr< gr::COWN::resta > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  float result;
-  
-  if(!PyArg_UnpackTuple(args,(char *)"resta_sptr_pc_throughput_avg",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__COWN__resta_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "resta_sptr_pc_throughput_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::COWN::resta > *""'"); 
-  }
-  arg1 = reinterpret_cast< boost::shared_ptr< gr::COWN::resta > * >(argp1);
-  {
-    try {
-      result = (float)(*arg1)->pc_throughput_avg();
-    }
-    catch(std::exception &e) {
-      SWIG_exception(SWIG_RuntimeError, e.what());
-    }
-    catch(...) {
-      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
-    }
-    
-  }
-  resultobj = SWIG_From_float(static_cast< float >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
 SWIGINTERN PyObject *_wrap_resta_sptr_set_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   boost::shared_ptr< gr::COWN::resta > *arg1 = (boost::shared_ptr< gr::COWN::resta > *) 0 ;
@@ -20712,7 +20547,6 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"tag_generator_sptr_pc_work_time_avg", _wrap_tag_generator_sptr_pc_work_time_avg, METH_VARARGS, (char *)"tag_generator_sptr_pc_work_time_avg(tag_generator_sptr self) -> float"},
 	 { (char *)"tag_generator_sptr_pc_work_time_var", _wrap_tag_generator_sptr_pc_work_time_var, METH_VARARGS, (char *)"tag_generator_sptr_pc_work_time_var(tag_generator_sptr self) -> float"},
 	 { (char *)"tag_generator_sptr_pc_work_time_total", _wrap_tag_generator_sptr_pc_work_time_total, METH_VARARGS, (char *)"tag_generator_sptr_pc_work_time_total(tag_generator_sptr self) -> float"},
-	 { (char *)"tag_generator_sptr_pc_throughput_avg", _wrap_tag_generator_sptr_pc_throughput_avg, METH_VARARGS, (char *)"tag_generator_sptr_pc_throughput_avg(tag_generator_sptr self) -> float"},
 	 { (char *)"tag_generator_sptr_set_processor_affinity", (PyCFunction) _wrap_tag_generator_sptr_set_processor_affinity, METH_VARARGS | METH_KEYWORDS, (char *)"tag_generator_sptr_set_processor_affinity(tag_generator_sptr self, std::vector< int,std::allocator< int > > const & mask)"},
 	 { (char *)"tag_generator_sptr_unset_processor_affinity", _wrap_tag_generator_sptr_unset_processor_affinity, METH_VARARGS, (char *)"tag_generator_sptr_unset_processor_affinity(tag_generator_sptr self)"},
 	 { (char *)"tag_generator_sptr_processor_affinity", _wrap_tag_generator_sptr_processor_affinity, METH_VARARGS, (char *)"tag_generator_sptr_processor_affinity(tag_generator_sptr self) -> std::vector< int,std::allocator< int > >"},
@@ -20733,7 +20567,15 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"tag_generator_sptr_message_ports_out", _wrap_tag_generator_sptr_message_ports_out, METH_VARARGS, (char *)"tag_generator_sptr_message_ports_out(tag_generator_sptr self) -> swig_int_ptr"},
 	 { (char *)"tag_generator_sptr_message_subscribers", (PyCFunction) _wrap_tag_generator_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"tag_generator_sptr_message_subscribers(tag_generator_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
 	 { (char *)"tag_generator_sptr_swigregister", tag_generator_sptr_swigregister, METH_VARARGS, NULL},
-	 { (char *)"test_make", _wrap_test_make, METH_VARARGS, (char *)"test_make() -> test_sptr"},
+	 { (char *)"test_make", _wrap_test_make, METH_VARARGS, (char *)"\n"
+		"test_make() -> test_sptr\n"
+		"\n"
+		"Return a shared_ptr to a new instance of COWN::test.\n"
+		"\n"
+		"To avoid accidental use of raw pointers, COWN::test's constructor is in a private implementation class. COWN::test::make is the public interface for creating new instances.\n"
+		"\n"
+		"Params: (NONE)\n"
+		""},
 	 { (char *)"delete_test", _wrap_delete_test, METH_VARARGS, (char *)"delete_test(test self)"},
 	 { (char *)"test_swigregister", test_swigregister, METH_VARARGS, NULL},
 	 { (char *)"new_test_sptr", _wrap_new_test_sptr, METH_VARARGS, (char *)"\n"
@@ -20742,7 +20584,15 @@ static PyMethodDef SwigMethods[] = {
 		""},
 	 { (char *)"test_sptr___deref__", _wrap_test_sptr___deref__, METH_VARARGS, (char *)"test_sptr___deref__(test_sptr self) -> test"},
 	 { (char *)"delete_test_sptr", _wrap_delete_test_sptr, METH_VARARGS, (char *)"delete_test_sptr(test_sptr self)"},
-	 { (char *)"test_sptr_make", _wrap_test_sptr_make, METH_VARARGS, (char *)"test_sptr_make(test_sptr self) -> test_sptr"},
+	 { (char *)"test_sptr_make", _wrap_test_sptr_make, METH_VARARGS, (char *)"\n"
+		"test_sptr_make(test_sptr self) -> test_sptr\n"
+		"\n"
+		"Return a shared_ptr to a new instance of COWN::test.\n"
+		"\n"
+		"To avoid accidental use of raw pointers, COWN::test's constructor is in a private implementation class. COWN::test::make is the public interface for creating new instances.\n"
+		"\n"
+		"Params: (NONE)\n"
+		""},
 	 { (char *)"test_sptr_history", _wrap_test_sptr_history, METH_VARARGS, (char *)"test_sptr_history(test_sptr self) -> unsigned int"},
 	 { (char *)"test_sptr_declare_sample_delay", _wrap_test_sptr_declare_sample_delay, METH_VARARGS, (char *)"\n"
 		"declare_sample_delay(int which, int delay)\n"
@@ -20805,7 +20655,6 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"test_sptr_pc_work_time_avg", _wrap_test_sptr_pc_work_time_avg, METH_VARARGS, (char *)"test_sptr_pc_work_time_avg(test_sptr self) -> float"},
 	 { (char *)"test_sptr_pc_work_time_var", _wrap_test_sptr_pc_work_time_var, METH_VARARGS, (char *)"test_sptr_pc_work_time_var(test_sptr self) -> float"},
 	 { (char *)"test_sptr_pc_work_time_total", _wrap_test_sptr_pc_work_time_total, METH_VARARGS, (char *)"test_sptr_pc_work_time_total(test_sptr self) -> float"},
-	 { (char *)"test_sptr_pc_throughput_avg", _wrap_test_sptr_pc_throughput_avg, METH_VARARGS, (char *)"test_sptr_pc_throughput_avg(test_sptr self) -> float"},
 	 { (char *)"test_sptr_set_processor_affinity", (PyCFunction) _wrap_test_sptr_set_processor_affinity, METH_VARARGS | METH_KEYWORDS, (char *)"test_sptr_set_processor_affinity(test_sptr self, std::vector< int,std::allocator< int > > const & mask)"},
 	 { (char *)"test_sptr_unset_processor_affinity", _wrap_test_sptr_unset_processor_affinity, METH_VARARGS, (char *)"test_sptr_unset_processor_affinity(test_sptr self)"},
 	 { (char *)"test_sptr_processor_affinity", _wrap_test_sptr_processor_affinity, METH_VARARGS, (char *)"test_sptr_processor_affinity(test_sptr self) -> std::vector< int,std::allocator< int > >"},
@@ -20826,7 +20675,15 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"test_sptr_message_ports_out", _wrap_test_sptr_message_ports_out, METH_VARARGS, (char *)"test_sptr_message_ports_out(test_sptr self) -> swig_int_ptr"},
 	 { (char *)"test_sptr_message_subscribers", (PyCFunction) _wrap_test_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"test_sptr_message_subscribers(test_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
 	 { (char *)"test_sptr_swigregister", test_sptr_swigregister, METH_VARARGS, NULL},
-	 { (char *)"syncher_make", _wrap_syncher_make, METH_VARARGS, (char *)"syncher_make() -> syncher_sptr"},
+	 { (char *)"syncher_make", _wrap_syncher_make, METH_VARARGS, (char *)"\n"
+		"syncher_make() -> syncher_sptr\n"
+		"\n"
+		"Return a shared_ptr to a new instance of COWN::syncher.\n"
+		"\n"
+		"To avoid accidental use of raw pointers, COWN::syncher's constructor is in a private implementation class. COWN::syncher::make is the public interface for creating new instances.\n"
+		"\n"
+		"Params: (NONE)\n"
+		""},
 	 { (char *)"delete_syncher", _wrap_delete_syncher, METH_VARARGS, (char *)"delete_syncher(syncher self)"},
 	 { (char *)"syncher_swigregister", syncher_swigregister, METH_VARARGS, NULL},
 	 { (char *)"new_syncher_sptr", _wrap_new_syncher_sptr, METH_VARARGS, (char *)"\n"
@@ -20835,7 +20692,15 @@ static PyMethodDef SwigMethods[] = {
 		""},
 	 { (char *)"syncher_sptr___deref__", _wrap_syncher_sptr___deref__, METH_VARARGS, (char *)"syncher_sptr___deref__(syncher_sptr self) -> syncher"},
 	 { (char *)"delete_syncher_sptr", _wrap_delete_syncher_sptr, METH_VARARGS, (char *)"delete_syncher_sptr(syncher_sptr self)"},
-	 { (char *)"syncher_sptr_make", _wrap_syncher_sptr_make, METH_VARARGS, (char *)"syncher_sptr_make(syncher_sptr self) -> syncher_sptr"},
+	 { (char *)"syncher_sptr_make", _wrap_syncher_sptr_make, METH_VARARGS, (char *)"\n"
+		"syncher_sptr_make(syncher_sptr self) -> syncher_sptr\n"
+		"\n"
+		"Return a shared_ptr to a new instance of COWN::syncher.\n"
+		"\n"
+		"To avoid accidental use of raw pointers, COWN::syncher's constructor is in a private implementation class. COWN::syncher::make is the public interface for creating new instances.\n"
+		"\n"
+		"Params: (NONE)\n"
+		""},
 	 { (char *)"syncher_sptr_history", _wrap_syncher_sptr_history, METH_VARARGS, (char *)"syncher_sptr_history(syncher_sptr self) -> unsigned int"},
 	 { (char *)"syncher_sptr_declare_sample_delay", _wrap_syncher_sptr_declare_sample_delay, METH_VARARGS, (char *)"\n"
 		"declare_sample_delay(int which, int delay)\n"
@@ -20898,7 +20763,6 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"syncher_sptr_pc_work_time_avg", _wrap_syncher_sptr_pc_work_time_avg, METH_VARARGS, (char *)"syncher_sptr_pc_work_time_avg(syncher_sptr self) -> float"},
 	 { (char *)"syncher_sptr_pc_work_time_var", _wrap_syncher_sptr_pc_work_time_var, METH_VARARGS, (char *)"syncher_sptr_pc_work_time_var(syncher_sptr self) -> float"},
 	 { (char *)"syncher_sptr_pc_work_time_total", _wrap_syncher_sptr_pc_work_time_total, METH_VARARGS, (char *)"syncher_sptr_pc_work_time_total(syncher_sptr self) -> float"},
-	 { (char *)"syncher_sptr_pc_throughput_avg", _wrap_syncher_sptr_pc_throughput_avg, METH_VARARGS, (char *)"syncher_sptr_pc_throughput_avg(syncher_sptr self) -> float"},
 	 { (char *)"syncher_sptr_set_processor_affinity", (PyCFunction) _wrap_syncher_sptr_set_processor_affinity, METH_VARARGS | METH_KEYWORDS, (char *)"syncher_sptr_set_processor_affinity(syncher_sptr self, std::vector< int,std::allocator< int > > const & mask)"},
 	 { (char *)"syncher_sptr_unset_processor_affinity", _wrap_syncher_sptr_unset_processor_affinity, METH_VARARGS, (char *)"syncher_sptr_unset_processor_affinity(syncher_sptr self)"},
 	 { (char *)"syncher_sptr_processor_affinity", _wrap_syncher_sptr_processor_affinity, METH_VARARGS, (char *)"syncher_sptr_processor_affinity(syncher_sptr self) -> std::vector< int,std::allocator< int > >"},
@@ -20919,7 +20783,15 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"syncher_sptr_message_ports_out", _wrap_syncher_sptr_message_ports_out, METH_VARARGS, (char *)"syncher_sptr_message_ports_out(syncher_sptr self) -> swig_int_ptr"},
 	 { (char *)"syncher_sptr_message_subscribers", (PyCFunction) _wrap_syncher_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"syncher_sptr_message_subscribers(syncher_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
 	 { (char *)"syncher_sptr_swigregister", syncher_sptr_swigregister, METH_VARARGS, NULL},
-	 { (char *)"syncher2_make", _wrap_syncher2_make, METH_VARARGS, (char *)"syncher2_make() -> syncher2_sptr"},
+	 { (char *)"syncher2_make", _wrap_syncher2_make, METH_VARARGS, (char *)"\n"
+		"syncher2_make() -> syncher2_sptr\n"
+		"\n"
+		"Return a shared_ptr to a new instance of COWN::syncher2.\n"
+		"\n"
+		"To avoid accidental use of raw pointers, COWN::syncher2's constructor is in a private implementation class. COWN::syncher2::make is the public interface for creating new instances.\n"
+		"\n"
+		"Params: (NONE)\n"
+		""},
 	 { (char *)"delete_syncher2", _wrap_delete_syncher2, METH_VARARGS, (char *)"delete_syncher2(syncher2 self)"},
 	 { (char *)"syncher2_swigregister", syncher2_swigregister, METH_VARARGS, NULL},
 	 { (char *)"new_syncher2_sptr", _wrap_new_syncher2_sptr, METH_VARARGS, (char *)"\n"
@@ -20928,7 +20800,15 @@ static PyMethodDef SwigMethods[] = {
 		""},
 	 { (char *)"syncher2_sptr___deref__", _wrap_syncher2_sptr___deref__, METH_VARARGS, (char *)"syncher2_sptr___deref__(syncher2_sptr self) -> syncher2"},
 	 { (char *)"delete_syncher2_sptr", _wrap_delete_syncher2_sptr, METH_VARARGS, (char *)"delete_syncher2_sptr(syncher2_sptr self)"},
-	 { (char *)"syncher2_sptr_make", _wrap_syncher2_sptr_make, METH_VARARGS, (char *)"syncher2_sptr_make(syncher2_sptr self) -> syncher2_sptr"},
+	 { (char *)"syncher2_sptr_make", _wrap_syncher2_sptr_make, METH_VARARGS, (char *)"\n"
+		"syncher2_sptr_make(syncher2_sptr self) -> syncher2_sptr\n"
+		"\n"
+		"Return a shared_ptr to a new instance of COWN::syncher2.\n"
+		"\n"
+		"To avoid accidental use of raw pointers, COWN::syncher2's constructor is in a private implementation class. COWN::syncher2::make is the public interface for creating new instances.\n"
+		"\n"
+		"Params: (NONE)\n"
+		""},
 	 { (char *)"syncher2_sptr_history", _wrap_syncher2_sptr_history, METH_VARARGS, (char *)"syncher2_sptr_history(syncher2_sptr self) -> unsigned int"},
 	 { (char *)"syncher2_sptr_declare_sample_delay", _wrap_syncher2_sptr_declare_sample_delay, METH_VARARGS, (char *)"\n"
 		"declare_sample_delay(int which, int delay)\n"
@@ -20991,7 +20871,6 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"syncher2_sptr_pc_work_time_avg", _wrap_syncher2_sptr_pc_work_time_avg, METH_VARARGS, (char *)"syncher2_sptr_pc_work_time_avg(syncher2_sptr self) -> float"},
 	 { (char *)"syncher2_sptr_pc_work_time_var", _wrap_syncher2_sptr_pc_work_time_var, METH_VARARGS, (char *)"syncher2_sptr_pc_work_time_var(syncher2_sptr self) -> float"},
 	 { (char *)"syncher2_sptr_pc_work_time_total", _wrap_syncher2_sptr_pc_work_time_total, METH_VARARGS, (char *)"syncher2_sptr_pc_work_time_total(syncher2_sptr self) -> float"},
-	 { (char *)"syncher2_sptr_pc_throughput_avg", _wrap_syncher2_sptr_pc_throughput_avg, METH_VARARGS, (char *)"syncher2_sptr_pc_throughput_avg(syncher2_sptr self) -> float"},
 	 { (char *)"syncher2_sptr_set_processor_affinity", (PyCFunction) _wrap_syncher2_sptr_set_processor_affinity, METH_VARARGS | METH_KEYWORDS, (char *)"syncher2_sptr_set_processor_affinity(syncher2_sptr self, std::vector< int,std::allocator< int > > const & mask)"},
 	 { (char *)"syncher2_sptr_unset_processor_affinity", _wrap_syncher2_sptr_unset_processor_affinity, METH_VARARGS, (char *)"syncher2_sptr_unset_processor_affinity(syncher2_sptr self)"},
 	 { (char *)"syncher2_sptr_processor_affinity", _wrap_syncher2_sptr_processor_affinity, METH_VARARGS, (char *)"syncher2_sptr_processor_affinity(syncher2_sptr self) -> std::vector< int,std::allocator< int > >"},
@@ -21012,7 +20891,15 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"syncher2_sptr_message_ports_out", _wrap_syncher2_sptr_message_ports_out, METH_VARARGS, (char *)"syncher2_sptr_message_ports_out(syncher2_sptr self) -> swig_int_ptr"},
 	 { (char *)"syncher2_sptr_message_subscribers", (PyCFunction) _wrap_syncher2_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"syncher2_sptr_message_subscribers(syncher2_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
 	 { (char *)"syncher2_sptr_swigregister", syncher2_sptr_swigregister, METH_VARARGS, NULL},
-	 { (char *)"resta_make", _wrap_resta_make, METH_VARARGS, (char *)"resta_make() -> resta_sptr"},
+	 { (char *)"resta_make", _wrap_resta_make, METH_VARARGS, (char *)"\n"
+		"resta_make() -> resta_sptr\n"
+		"\n"
+		"Return a shared_ptr to a new instance of COWN::resta.\n"
+		"\n"
+		"To avoid accidental use of raw pointers, COWN::resta's constructor is in a private implementation class. COWN::resta::make is the public interface for creating new instances.\n"
+		"\n"
+		"Params: (NONE)\n"
+		""},
 	 { (char *)"delete_resta", _wrap_delete_resta, METH_VARARGS, (char *)"delete_resta(resta self)"},
 	 { (char *)"resta_swigregister", resta_swigregister, METH_VARARGS, NULL},
 	 { (char *)"new_resta_sptr", _wrap_new_resta_sptr, METH_VARARGS, (char *)"\n"
@@ -21021,7 +20908,15 @@ static PyMethodDef SwigMethods[] = {
 		""},
 	 { (char *)"resta_sptr___deref__", _wrap_resta_sptr___deref__, METH_VARARGS, (char *)"resta_sptr___deref__(resta_sptr self) -> resta"},
 	 { (char *)"delete_resta_sptr", _wrap_delete_resta_sptr, METH_VARARGS, (char *)"delete_resta_sptr(resta_sptr self)"},
-	 { (char *)"resta_sptr_make", _wrap_resta_sptr_make, METH_VARARGS, (char *)"resta_sptr_make(resta_sptr self) -> resta_sptr"},
+	 { (char *)"resta_sptr_make", _wrap_resta_sptr_make, METH_VARARGS, (char *)"\n"
+		"resta_sptr_make(resta_sptr self) -> resta_sptr\n"
+		"\n"
+		"Return a shared_ptr to a new instance of COWN::resta.\n"
+		"\n"
+		"To avoid accidental use of raw pointers, COWN::resta's constructor is in a private implementation class. COWN::resta::make is the public interface for creating new instances.\n"
+		"\n"
+		"Params: (NONE)\n"
+		""},
 	 { (char *)"resta_sptr_history", _wrap_resta_sptr_history, METH_VARARGS, (char *)"resta_sptr_history(resta_sptr self) -> unsigned int"},
 	 { (char *)"resta_sptr_declare_sample_delay", _wrap_resta_sptr_declare_sample_delay, METH_VARARGS, (char *)"\n"
 		"declare_sample_delay(int which, int delay)\n"
@@ -21084,7 +20979,6 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"resta_sptr_pc_work_time_avg", _wrap_resta_sptr_pc_work_time_avg, METH_VARARGS, (char *)"resta_sptr_pc_work_time_avg(resta_sptr self) -> float"},
 	 { (char *)"resta_sptr_pc_work_time_var", _wrap_resta_sptr_pc_work_time_var, METH_VARARGS, (char *)"resta_sptr_pc_work_time_var(resta_sptr self) -> float"},
 	 { (char *)"resta_sptr_pc_work_time_total", _wrap_resta_sptr_pc_work_time_total, METH_VARARGS, (char *)"resta_sptr_pc_work_time_total(resta_sptr self) -> float"},
-	 { (char *)"resta_sptr_pc_throughput_avg", _wrap_resta_sptr_pc_throughput_avg, METH_VARARGS, (char *)"resta_sptr_pc_throughput_avg(resta_sptr self) -> float"},
 	 { (char *)"resta_sptr_set_processor_affinity", (PyCFunction) _wrap_resta_sptr_set_processor_affinity, METH_VARARGS | METH_KEYWORDS, (char *)"resta_sptr_set_processor_affinity(resta_sptr self, std::vector< int,std::allocator< int > > const & mask)"},
 	 { (char *)"resta_sptr_unset_processor_affinity", _wrap_resta_sptr_unset_processor_affinity, METH_VARARGS, (char *)"resta_sptr_unset_processor_affinity(resta_sptr self)"},
 	 { (char *)"resta_sptr_processor_affinity", _wrap_resta_sptr_processor_affinity, METH_VARARGS, (char *)"resta_sptr_processor_affinity(resta_sptr self) -> std::vector< int,std::allocator< int > >"},

@@ -327,10 +327,6 @@ class tag_generator_sptr(object):
         """pc_work_time_total(tag_generator_sptr self) -> float"""
         return _COWN_swig.tag_generator_sptr_pc_work_time_total(self)
 
-    def pc_throughput_avg(self):
-        """pc_throughput_avg(tag_generator_sptr self) -> float"""
-        return _COWN_swig.tag_generator_sptr_pc_throughput_avg(self)
-
     def set_processor_affinity(self, *args, **kwargs):
         """set_processor_affinity(tag_generator_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
         return _COWN_swig.tag_generator_sptr_set_processor_affinity(self, *args, **kwargs)
@@ -414,12 +410,20 @@ tag_generator_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), 
 tag_generator = tag_generator.make;
 
 class test(object):
-    """Proxy of C++ gr::COWN::test class"""
+    """<+description of block+>"""
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined")
     __repr__ = _swig_repr
     def make():
-        """make() -> test_sptr"""
+        """
+        make() -> test_sptr
+
+        Return a shared_ptr to a new instance of COWN::test.
+
+        To avoid accidental use of raw pointers, COWN::test's constructor is in a private implementation class. COWN::test::make is the public interface for creating new instances.
+
+        Params: (NONE)
+        """
         return _COWN_swig.test_make()
 
     make = staticmethod(make)
@@ -429,7 +433,15 @@ test_swigregister = _COWN_swig.test_swigregister
 test_swigregister(test)
 
 def test_make():
-  """test_make() -> test_sptr"""
+  """
+    test_make() -> test_sptr
+
+    Return a shared_ptr to a new instance of COWN::test.
+
+    To avoid accidental use of raw pointers, COWN::test's constructor is in a private implementation class. COWN::test::make is the public interface for creating new instances.
+
+    Params: (NONE)
+    """
   return _COWN_swig.test_make()
 
 class test_sptr(object):
@@ -451,7 +463,15 @@ class test_sptr(object):
     __swig_destroy__ = _COWN_swig.delete_test_sptr
     __del__ = lambda self : None;
     def make(self):
-        """make(test_sptr self) -> test_sptr"""
+        """
+        make(test_sptr self) -> test_sptr
+
+        Return a shared_ptr to a new instance of COWN::test.
+
+        To avoid accidental use of raw pointers, COWN::test's constructor is in a private implementation class. COWN::test::make is the public interface for creating new instances.
+
+        Params: (NONE)
+        """
         return _COWN_swig.test_sptr_make(self)
 
     def history(self):
@@ -621,10 +641,6 @@ class test_sptr(object):
         """pc_work_time_total(test_sptr self) -> float"""
         return _COWN_swig.test_sptr_pc_work_time_total(self)
 
-    def pc_throughput_avg(self):
-        """pc_throughput_avg(test_sptr self) -> float"""
-        return _COWN_swig.test_sptr_pc_throughput_avg(self)
-
     def set_processor_affinity(self, *args, **kwargs):
         """set_processor_affinity(test_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
         return _COWN_swig.test_sptr_set_processor_affinity(self, *args, **kwargs)
@@ -708,12 +724,20 @@ test_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.uniq
 test = test.make;
 
 class syncher(object):
-    """Proxy of C++ gr::COWN::syncher class"""
+    """<+description of block+>"""
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined")
     __repr__ = _swig_repr
     def make():
-        """make() -> syncher_sptr"""
+        """
+        make() -> syncher_sptr
+
+        Return a shared_ptr to a new instance of COWN::syncher.
+
+        To avoid accidental use of raw pointers, COWN::syncher's constructor is in a private implementation class. COWN::syncher::make is the public interface for creating new instances.
+
+        Params: (NONE)
+        """
         return _COWN_swig.syncher_make()
 
     make = staticmethod(make)
@@ -723,7 +747,15 @@ syncher_swigregister = _COWN_swig.syncher_swigregister
 syncher_swigregister(syncher)
 
 def syncher_make():
-  """syncher_make() -> syncher_sptr"""
+  """
+    syncher_make() -> syncher_sptr
+
+    Return a shared_ptr to a new instance of COWN::syncher.
+
+    To avoid accidental use of raw pointers, COWN::syncher's constructor is in a private implementation class. COWN::syncher::make is the public interface for creating new instances.
+
+    Params: (NONE)
+    """
   return _COWN_swig.syncher_make()
 
 class syncher_sptr(object):
@@ -745,7 +777,15 @@ class syncher_sptr(object):
     __swig_destroy__ = _COWN_swig.delete_syncher_sptr
     __del__ = lambda self : None;
     def make(self):
-        """make(syncher_sptr self) -> syncher_sptr"""
+        """
+        make(syncher_sptr self) -> syncher_sptr
+
+        Return a shared_ptr to a new instance of COWN::syncher.
+
+        To avoid accidental use of raw pointers, COWN::syncher's constructor is in a private implementation class. COWN::syncher::make is the public interface for creating new instances.
+
+        Params: (NONE)
+        """
         return _COWN_swig.syncher_sptr_make(self)
 
     def history(self):
@@ -915,10 +955,6 @@ class syncher_sptr(object):
         """pc_work_time_total(syncher_sptr self) -> float"""
         return _COWN_swig.syncher_sptr_pc_work_time_total(self)
 
-    def pc_throughput_avg(self):
-        """pc_throughput_avg(syncher_sptr self) -> float"""
-        return _COWN_swig.syncher_sptr_pc_throughput_avg(self)
-
     def set_processor_affinity(self, *args, **kwargs):
         """set_processor_affinity(syncher_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
         return _COWN_swig.syncher_sptr_set_processor_affinity(self, *args, **kwargs)
@@ -1002,12 +1038,20 @@ syncher_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.u
 syncher = syncher.make;
 
 class syncher2(object):
-    """Proxy of C++ gr::COWN::syncher2 class"""
+    """<+description of block+>"""
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined")
     __repr__ = _swig_repr
     def make():
-        """make() -> syncher2_sptr"""
+        """
+        make() -> syncher2_sptr
+
+        Return a shared_ptr to a new instance of COWN::syncher2.
+
+        To avoid accidental use of raw pointers, COWN::syncher2's constructor is in a private implementation class. COWN::syncher2::make is the public interface for creating new instances.
+
+        Params: (NONE)
+        """
         return _COWN_swig.syncher2_make()
 
     make = staticmethod(make)
@@ -1017,7 +1061,15 @@ syncher2_swigregister = _COWN_swig.syncher2_swigregister
 syncher2_swigregister(syncher2)
 
 def syncher2_make():
-  """syncher2_make() -> syncher2_sptr"""
+  """
+    syncher2_make() -> syncher2_sptr
+
+    Return a shared_ptr to a new instance of COWN::syncher2.
+
+    To avoid accidental use of raw pointers, COWN::syncher2's constructor is in a private implementation class. COWN::syncher2::make is the public interface for creating new instances.
+
+    Params: (NONE)
+    """
   return _COWN_swig.syncher2_make()
 
 class syncher2_sptr(object):
@@ -1039,7 +1091,15 @@ class syncher2_sptr(object):
     __swig_destroy__ = _COWN_swig.delete_syncher2_sptr
     __del__ = lambda self : None;
     def make(self):
-        """make(syncher2_sptr self) -> syncher2_sptr"""
+        """
+        make(syncher2_sptr self) -> syncher2_sptr
+
+        Return a shared_ptr to a new instance of COWN::syncher2.
+
+        To avoid accidental use of raw pointers, COWN::syncher2's constructor is in a private implementation class. COWN::syncher2::make is the public interface for creating new instances.
+
+        Params: (NONE)
+        """
         return _COWN_swig.syncher2_sptr_make(self)
 
     def history(self):
@@ -1209,10 +1269,6 @@ class syncher2_sptr(object):
         """pc_work_time_total(syncher2_sptr self) -> float"""
         return _COWN_swig.syncher2_sptr_pc_work_time_total(self)
 
-    def pc_throughput_avg(self):
-        """pc_throughput_avg(syncher2_sptr self) -> float"""
-        return _COWN_swig.syncher2_sptr_pc_throughput_avg(self)
-
     def set_processor_affinity(self, *args, **kwargs):
         """set_processor_affinity(syncher2_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
         return _COWN_swig.syncher2_sptr_set_processor_affinity(self, *args, **kwargs)
@@ -1296,12 +1352,20 @@ syncher2_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.
 syncher2 = syncher2.make;
 
 class resta(object):
-    """Proxy of C++ gr::COWN::resta class"""
+    """<+description of block+>"""
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined")
     __repr__ = _swig_repr
     def make():
-        """make() -> resta_sptr"""
+        """
+        make() -> resta_sptr
+
+        Return a shared_ptr to a new instance of COWN::resta.
+
+        To avoid accidental use of raw pointers, COWN::resta's constructor is in a private implementation class. COWN::resta::make is the public interface for creating new instances.
+
+        Params: (NONE)
+        """
         return _COWN_swig.resta_make()
 
     make = staticmethod(make)
@@ -1311,7 +1375,15 @@ resta_swigregister = _COWN_swig.resta_swigregister
 resta_swigregister(resta)
 
 def resta_make():
-  """resta_make() -> resta_sptr"""
+  """
+    resta_make() -> resta_sptr
+
+    Return a shared_ptr to a new instance of COWN::resta.
+
+    To avoid accidental use of raw pointers, COWN::resta's constructor is in a private implementation class. COWN::resta::make is the public interface for creating new instances.
+
+    Params: (NONE)
+    """
   return _COWN_swig.resta_make()
 
 class resta_sptr(object):
@@ -1333,7 +1405,15 @@ class resta_sptr(object):
     __swig_destroy__ = _COWN_swig.delete_resta_sptr
     __del__ = lambda self : None;
     def make(self):
-        """make(resta_sptr self) -> resta_sptr"""
+        """
+        make(resta_sptr self) -> resta_sptr
+
+        Return a shared_ptr to a new instance of COWN::resta.
+
+        To avoid accidental use of raw pointers, COWN::resta's constructor is in a private implementation class. COWN::resta::make is the public interface for creating new instances.
+
+        Params: (NONE)
+        """
         return _COWN_swig.resta_sptr_make(self)
 
     def history(self):
@@ -1502,10 +1582,6 @@ class resta_sptr(object):
     def pc_work_time_total(self):
         """pc_work_time_total(resta_sptr self) -> float"""
         return _COWN_swig.resta_sptr_pc_work_time_total(self)
-
-    def pc_throughput_avg(self):
-        """pc_throughput_avg(resta_sptr self) -> float"""
-        return _COWN_swig.resta_sptr_pc_throughput_avg(self)
 
     def set_processor_affinity(self, *args, **kwargs):
         """set_processor_affinity(resta_sptr self, std::vector< int,std::allocator< int > > const & mask)"""

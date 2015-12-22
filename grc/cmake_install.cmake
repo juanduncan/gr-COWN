@@ -1,4 +1,4 @@
-# Install script for directory: /home/juan/cognitive/gr-COWN/grc
+# Install script for directory: /home/nutaq/cognitive/gr-COWN/grc
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks" TYPE FILE FILES
-    "/home/juan/cognitive/gr-COWN/grc/COWN_tag_generator.xml"
-    "/home/juan/cognitive/gr-COWN/grc/COWN_test.xml"
-    "/home/juan/cognitive/gr-COWN/grc/COWN_syncher.xml"
-    "/home/juan/cognitive/gr-COWN/grc/COWN_syncher2.xml"
-    "/home/juan/cognitive/gr-COWN/grc/COWN_resta.xml"
+    "/home/nutaq/cognitive/gr-COWN/grc/COWN_tag_generator.xml"
+    "/home/nutaq/cognitive/gr-COWN/grc/COWN_test.xml"
+    "/home/nutaq/cognitive/gr-COWN/grc/COWN_syncher.xml"
+    "/home/nutaq/cognitive/gr-COWN/grc/COWN_syncher2.xml"
+    "/home/nutaq/cognitive/gr-COWN/grc/COWN_resta.xml"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

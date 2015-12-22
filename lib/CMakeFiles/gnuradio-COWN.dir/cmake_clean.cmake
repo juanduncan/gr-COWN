@@ -6,6 +6,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o"
   "libgnuradio-COWN.pdb"
   "libgnuradio-COWN.so"
+  "libgnuradio-COWN.pdb"
+  "CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so"
 )
 
 # Per-language clean rules from dependency scanning.
